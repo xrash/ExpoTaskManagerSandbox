@@ -8,7 +8,7 @@ import './defineTaskBackgroundFetch'
 import './printRegisteredTasks'
 
 export default function App() {
-  const [controls, setControls] = useState<'location' | 'bg-fetch'>('location')
+  const [controls, setControls] = useState<'location' | 'bg-fetch'>('bg-fetch')
 
   return (
     <View style={styles.container}>
