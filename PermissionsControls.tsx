@@ -64,25 +64,25 @@ export const PermissionsControls = () => {
       </View>
       <View style={{ margin: 8 }}>
         <Button
-          title={'getForegroundPermissions'}
+          title={'Get Foreground Permissions'}
           onPress={handlePressGetForegroundPermissions}
         />
       </View>
       <View style={{ margin: 8 }}>
         <Button
-          title={'getBackgroundPermissions'}
+          title={'Get Background Permissions'}
           onPress={handlePressGetBackgroundPermissions}
         />
       </View>
       <View style={{ margin: 8 }}>
         <Button
-          title={'requestForegroundPermissions'}
+          title={'Request Foreground Permissions'}
           onPress={handlePressRequestForegroundPermissions}
         />
       </View>
       <View style={{ margin: 8 }}>
         <Button
-          title={'requestBackgroundPermissions'}
+          title={'Request Background Permissions'}
           onPress={handlePressRequestBackgroundPermissions}
         />
       </View>
